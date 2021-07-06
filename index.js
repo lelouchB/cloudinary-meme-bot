@@ -31,7 +31,7 @@ client.on("message", async (message) => {
         if (error) {
           console.error(error);
         }
-        const randomIndex = Math.floor(Math.random() * 10);
+        const randomIndex = Math.floor(Math.random() * result.resources.length);
 
         publicId = result.resources[randomIndex].public_id;
       }
