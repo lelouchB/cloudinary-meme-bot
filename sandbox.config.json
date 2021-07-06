@@ -1,0 +1,9 @@
+{
+    "template": "static",
+    "infiniteLoopProtection": true,
+    "hardReloadOnChange": false,
+    "view": "browser",
+    "container": {
+        "startScript": "serve"
+    }
+}
